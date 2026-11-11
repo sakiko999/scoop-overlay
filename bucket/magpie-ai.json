@@ -4,9 +4,10 @@
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
     "notes": [
-        "This manifest tracks the latest GitHub releases of Magpie (rolling channel).",
-        "Update with 'scoop update magpie-ai'; in-app auto update is pre-disabled by this manifest.",
-        "If you ever enabled 'Settings - Command line/PATH', run 'magpie uninstall' before 'scoop uninstall' to clean up integration outside Scoop."
+        "Tracks the latest GitHub releases of Magpie (rolling channel), auto-updated by CI every 6 hours.",
+        "To update: exit Magpie (tray - Quit) first, then run 'scoop update' followed by 'scoop update magpie-ai'. Scoop silently skips update/uninstall while Magpie is running.",
+        "In-app auto update is preset off via data/settings.json (only when it doesn't already exist; existing settings are kept as-is).",
+        "scoop uninstall won't remove external integration (Open at login, magpie:// handler, user PATH entry from Settings - Command line). Use in-app Settings - Uninstall magpie to clean up, or 'magpie uninstall --keep-data' to keep settings."
     ],
     "suggest": {
         "WebView2": "extras/webview2"
@@ -48,7 +49,7 @@
     "shortcuts": [
         [
             "magpie.exe",
-            "Magpie"
+            "Magpie AI"
         ]
     ],
     "persist": "data",

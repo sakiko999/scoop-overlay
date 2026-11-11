@@ -1,0 +1,77 @@
+{
+    "version": "0.1.3771",
+    "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
+    "homepage": "https://usemagpie.ai",
+    "license": "MIT",
+    "notes": [
+        "This manifest tracks the latest GitHub releases of Magpie (rolling channel).",
+        "Update with 'scoop update magpie-ai'; in-app auto update is pre-disabled by this manifest.",
+        "If you ever enabled 'Settings - Command line/PATH', run 'magpie uninstall' before 'scoop uninstall' to clean up integration outside Scoop."
+    ],
+    "suggest": {
+        "WebView2": "extras/webview2"
+    },
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3771/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3771/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+            ],
+            "hash": [
+                "1b51e003804b4524c0a8cb372753853fb9e26d10a84404174f1548796929ae9e",
+                "22e2e18f304201dc871e7f665ee83458954d00dabc7277a8f7c5a88dbac00778"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3771/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3771/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+            ],
+            "hash": [
+                "e292bf1d25db23ba2b0910ab13bce1198cca07b20640b96dc9498e5a603cc2c0",
+                "891957ec451c3050d27a432f7ea60ca11468e5749ee7a9dbfa2f77fa0b4b1189"
+            ]
+        }
+    },
+    "pre_install": [
+        "if (-not (Test-Path -LiteralPath \"$persist_dir\\data\\settings.json\" -PathType Leaf)) {",
+        "    ensure \"$dir\\data\" | Out-Null",
+        "    @{ noAutoUpdate = $true } | ConvertTo-Json | Set-Content -LiteralPath \"$dir\\data\\settings.json\" -Force -Encoding ASCII",
+        "}"
+    ],
+    "bin": [
+        [
+            "magpie-cli.exe",
+            "magpie"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "magpie.exe",
+            "Magpie"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/yetone/magpie-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/yetone/magpie-releases/releases/download/v$version/magpie-windows-amd64.exe#/magpie.exe",
+                    "https://github.com/yetone/magpie-releases/releases/download/v$version/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/yetone/magpie-releases/releases/download/v$version/magpie-windows-arm64.exe#/magpie.exe",
+                    "https://github.com/yetone/magpie-releases/releases/download/v$version/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                ]
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}

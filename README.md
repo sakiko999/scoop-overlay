@@ -1,6 +1,6 @@
-# scoop-magpie-ai
+# scoop-overlay
 
-个人 Scoop 桶：追踪 [Magpie](https://usemagpie.ai)（[yetone/magpie](https://github.com/yetone/magpie)）的 GitHub 最新版。
+个人 Scoop 桶（overlay）：追踪 [Magpie](https://usemagpie.ai)（[yetone/magpie](https://github.com/yetone/magpie)）的 GitHub 最新版。
 
 官方 `extras` 桶的 `magpie-ai` 走 stable 通道、更新明显滞后；本桶直接跟随发布仓库 [yetone/magpie-releases](https://github.com/yetone/magpie-releases) 的最新 release，由 [Excavator](.github/workflows/excavator.yml) 每 6 小时自动更新 manifest（手动触发：Actions → Excavator → Run workflow）。
 
@@ -9,8 +9,8 @@
 ## 使用
 
 ```powershell
-scoop bucket add magpie-ai-rolling https://github.com/sakiko999/scoop-magpie-ai
-scoop install magpie-ai-rolling/magpie-ai
+scoop bucket add overlay https://github.com/sakiko999/scoop-overlay
+scoop install overlay/magpie-ai
 ```
 
 若此前安装过 `extras` 的 `magpie-ai`，先完整迁移：
@@ -21,7 +21,7 @@ Get-Process magpie* -ErrorAction SilentlyContinue
 # 2. 卸载 extras 版（persist 数据默认保留，配置自动延续）
 scoop uninstall magpie-ai
 # 3. 安装本桶版本
-scoop install magpie-ai-rolling/magpie-ai
+scoop install overlay/magpie-ai
 ```
 
 注意：**Magpie 在运行时，scoop 的 install/update/uninstall 会被静默跳过**，务必先退出。

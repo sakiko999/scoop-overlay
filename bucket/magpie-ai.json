@@ -1,5 +1,5 @@
 {
-    "version": "0.1.3820",
+    "version": "0.1.3921",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3820/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3820/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "d886df636105f10ccecc6e55cb02bc7df3824ff5fd6a9912541baa7db0f0d8e2",
-                "25e3fd4420ef58824e1938002631979986bf1e80e17873d396219a03d7022fe3"
+                "712ce939b257862d10028f25d2c9b5c94e1d222d59e658497e9db4cfb5e831a2",
+                "9c8a7b57cf19f7cc191baaa29d02abc031e6161f7d8f7750c6135f288abbbecb"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3820/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3820/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "c9984c09f2e219e2e19465d53bb4b863300f5b35b1a564bb1b1dce12272f3e24",
-                "c6fb2180e00bb5a5de7565c939ddebab93d9882a29d77a3b3e4e7abbbf8aea58"
+                "6c81a5cf9dc9c3435cb0103010bc7d2f1348c7a7fb825c5fd2b03656a66e75fd",
+                "1ba23817926fb0889f6eeadb763d465bc682979a8e7db35f7a9d531f641fb784"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.3921",
+    "version": "0.1.3960",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3960/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3960/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "712ce939b257862d10028f25d2c9b5c94e1d222d59e658497e9db4cfb5e831a2",
-                "9c8a7b57cf19f7cc191baaa29d02abc031e6161f7d8f7750c6135f288abbbecb"
+                "6a60a32705d85cba37707bb727ca334d6dc9c1ef36825bcea3e523ba310d07e1",
+                "8dd7b888c696a9669453ca97cd5eee5a8146fc8ffc5c18acb85be4f28fe75d6d"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3921/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3960/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.3960/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "6c81a5cf9dc9c3435cb0103010bc7d2f1348c7a7fb825c5fd2b03656a66e75fd",
-                "1ba23817926fb0889f6eeadb763d465bc682979a8e7db35f7a9d531f641fb784"
+                "096394e5c1bf89b359eddb44f9c93dee8571469afe50d0f31d2f812a8e76beae",
+                "414fc35996716d73caf4eec0ec4bf1da9d3adadeeffdadd8d8dd95a4fd0d2297"
             ]
         }
     },

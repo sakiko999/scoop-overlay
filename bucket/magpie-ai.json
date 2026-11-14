@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4092",
+    "version": "0.1.4137",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4092/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4092/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4137/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4137/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "12089a631f69c3f7482358afb8b7ffabec3c1b15f0dae3c050b13b1592217df0",
-                "8dc4d62c0be305f685044a7cf1404688019ac2a959d5c39a7d63dee5169434cf"
+                "714f69c370be43a9c2505bd3f849660239e9f2b320b068d7d50db5c01a366f37",
+                "917861dcd01833253c720f2d65917410ae59ba1949c02a19f97af4de2b3325be"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4092/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4092/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4137/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4137/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "c7a618f971b4b46db661bcf58fb534ef53974fa49d62be02b6b7db49408c994d",
-                "96464c12e4371de4a6dde9d7415fc8bded8d4eefccab3134540617d989e346a6"
+                "9e569a3096ac6679418eb3f278ba1103c4138a2dd04b183d6c89556b9d0df723",
+                "c61ba02eeba5826a254a619a6681c5ece9f3e128d98fd5706e82fa18bb1d5ede"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4199",
+    "version": "0.1.4218",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4199/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4199/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4218/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4218/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "b2ee1c6eba158428afb0f693a233a29ab9c55288589769be8671afce1058b7c2",
-                "2d51133a3c3a671f6ca2e14869827cba571782b875537339e86c40b9534d656a"
+                "45d362dcd096a0bd81edd3f54fa6042c2c5c3a44f282fae26d5bfaecd6a0ecc5",
+                "0548c63cbca75eb3f920ded3481e118c3ee93ba216425de2ddb9062840d90eed"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4199/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4199/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4218/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4218/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "448d57303f17a6373145adb28dc25ec6672d20f6240e7f76e6a427694c09ca11",
-                "3663a80c017d69ace3d8eedccd9642748e999e566d772939a247560a63678205"
+                "c72f9b4d4f59ddc2fd06ecd5890f953ff91f18345e38d0e142824ab5f8531cb0",
+                "5bb0c664108a564690f571c0337caedefd1d2062b63080219a2ade3533b50e4e"
             ]
         }
     },

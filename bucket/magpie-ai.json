@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4271",
+    "version": "0.1.4299",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4271/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4271/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "36ddccdf7f7f5e0f6e6e4386ed3700646d6d59f0fb8443214975d62070df8282",
-                "c82c3e6f7943e4bec00b4665bef831f76767119ff2823e782a5150c23f94f40d"
+                "59a41423f6291a017f702b073548564e10343e201b02cf730a7e382688d368ca",
+                "9d4ba4c4d64e85cab5232b1622ac904efc8e66201ccff9a3ad954517f5bdad84"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4271/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4271/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "e2c234431297c7a0984b36cfee65f18b1c4bf1a199acbc9ff3a74952fbec5eda",
-                "66ef6fb044525d18801bd24ab2f8c1ad4207f6ff8636e7bbdec150be8ef53f40"
+                "494a3c9fc6a9761dcc5736ea61357dd7d989e46db2db4a5f97f9431b928dac15",
+                "0f657b7a83f041f1d6e58686af2b82c488e6f1d9b16771b8073fd127b91ca8b4"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4299",
+    "version": "0.1.4340",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4340/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4340/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "59a41423f6291a017f702b073548564e10343e201b02cf730a7e382688d368ca",
-                "9d4ba4c4d64e85cab5232b1622ac904efc8e66201ccff9a3ad954517f5bdad84"
+                "906db768f90a1af89fac9a1593fa545d8e596e62649b8f397bb79b688c9efcfd",
+                "6bdcc45be5f1944712b4d4e658f06f5fa9c65a50f6f646c0d6e419a2056307e0"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4299/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4340/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4340/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "494a3c9fc6a9761dcc5736ea61357dd7d989e46db2db4a5f97f9431b928dac15",
-                "0f657b7a83f041f1d6e58686af2b82c488e6f1d9b16771b8073fd127b91ca8b4"
+                "a5277beb203c270c04d03dc5a735331ad3fb0012cdcced94f72faaff24707f05",
+                "78149acca77405c2c51b3a9848ed7ade8e6d0b214930dd50abc9b76c6561d978"
             ]
         }
     },

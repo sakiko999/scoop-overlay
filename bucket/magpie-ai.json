@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4400",
+    "version": "0.1.4445",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4400/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4400/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4445/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4445/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "cb05eb65b31a6a7da93171642a3e94c78ea591e3c21e9fe6bff1f9497a960315",
-                "d902fd7fb732be34954db0fe3e799970d0cbc8d7b1e0cac776f840b3bca9e51e"
+                "c97d6da1e02d0b3874f51d67bbb8090f6a2921b2a666ebb5cd881e35e71f8bc2",
+                "bc0f5d7472b4a2ee2efe2ada8f8ccaa09ad3003fc71366c956009f3436542d1b"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4400/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4400/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4445/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4445/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "ca0fb53e81216f98ea35f9dff33d93807ea328a489a05c65d2d9918a49a028c3",
-                "cfc2afdec014ba44d67f8c193913c18aee58618e314350cc556fa476bc5f3051"
+                "38293413ab28acb5d1630b559b6d2e60614acbb5b0fa0e016b957b7a9f68e836",
+                "c4a39f35731f1eb8c44f507502e71375f636ab0e532051318e1536e29421f100"
             ]
         }
     },

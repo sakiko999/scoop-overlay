@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4566",
+    "version": "0.1.4586",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4566/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4566/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "8625bf9d9f03d36499e1c5e4f0539c73a0681473859eecaa3ee69fb6c8750ac5",
-                "e2953a1d8dd0345049c1ca6c76baa6b3a1648ea2137aad726899c654e1c72df1"
+                "43ea2e6790952b9d5265a08bb6a25350a3a11d324c3dbdae552fea2c0d9b485c",
+                "9ef95b203355b5ce00ff4b90956dda908f6b0f813a4389339b0ddeadbc2e0e6b"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4566/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4566/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "a4172490f65b7a1a4dc0282ec09c33ebdaa5b9a541da4bf52bdefa7319c87633",
-                "17ea5239c76974e6d66290087f2ac5d7610219135e8130b1a7a5134d8564f742"
+                "e5e0a4f6613e736dc5bada061094c3551961ddc66f6114736a5cb55fcfecc42b",
+                "570888b078bfe90e8f8623e7d05b4276111fd1d63cef1112ebdaaf85560cb355"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4586",
+    "version": "0.1.4620",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4620/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4620/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "43ea2e6790952b9d5265a08bb6a25350a3a11d324c3dbdae552fea2c0d9b485c",
-                "9ef95b203355b5ce00ff4b90956dda908f6b0f813a4389339b0ddeadbc2e0e6b"
+                "dcc3b41acf77d607ceda1c0fcc0ab765b4171bf3de7314032e9e4a62eec439e5",
+                "bd1e432709ece1928b96d85b88fb01262694aff925a6dd231b654aadea2055d7"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4586/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4620/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4620/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "e5e0a4f6613e736dc5bada061094c3551961ddc66f6114736a5cb55fcfecc42b",
-                "570888b078bfe90e8f8623e7d05b4276111fd1d63cef1112ebdaaf85560cb355"
+                "0a13f2487f23fcbb253b5e6704724ffc486da1b296785754d6048dc8a2f756ba",
+                "89b93fee494bb633a4315318493881392a51140e6e0a60eedb289040cf3f7de4"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4634",
+    "version": "0.1.4656",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4634/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4634/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "0bf82ca57b7fe50d7823ae1a7e866401a3451d68b998d6b870e916c7cbd109fb",
-                "65f5de9c35cee72725ccb0b358633be1a0ee4deea9879830cbef1d146e16a224"
+                "7a959ac940ab033b88d3918ae53a10818a075aa9c9e93b4a845692e9b5e819ee",
+                "d016beff09774bdc05aaafc3a45c99e6ecdfbbc7f3c7d9c62fc3f811b0ac205d"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4634/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4634/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "7c9d89cc6e1bae4cedfa21633d857bb9da8ccc272dc77e588e5c1ee1941bc072",
-                "ba06e7fb89977eea59fd1fd55570b241c030387eab5e4e5c58fb332404c0113b"
+                "2e33df090ccc21771491760dd4c77d64122c5e34c9b5c5ffdf84364bd02451e2",
+                "f99eb9356d30e08f5cced2ab8c69115705c7b1f1b4761c9525d50b6ded45e9b9"
             ]
         }
     },

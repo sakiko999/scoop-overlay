@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4656",
+    "version": "0.1.4665",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4665/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4665/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "7a959ac940ab033b88d3918ae53a10818a075aa9c9e93b4a845692e9b5e819ee",
-                "d016beff09774bdc05aaafc3a45c99e6ecdfbbc7f3c7d9c62fc3f811b0ac205d"
+                "87d735e93f7a554e5fc946ce2dc146566534897d7f615b969b51249e070ffe06",
+                "9e97a3c619ecc2f7906008c7c4917d2c16594783efe24715419425cac9758d33"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4656/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4665/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4665/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "2e33df090ccc21771491760dd4c77d64122c5e34c9b5c5ffdf84364bd02451e2",
-                "f99eb9356d30e08f5cced2ab8c69115705c7b1f1b4761c9525d50b6ded45e9b9"
+                "e6668a56baa0aeb8a60fe9f2d888b8c704f179325fc5e27bf8634639b1d0621c",
+                "58ca293182fe54b41c4c3183288c0db359f4980b085a30010f9ef47c28394c6a"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4683",
+    "version": "0.1.4708",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4683/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4683/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4708/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4708/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "e924937e1aaf191b0dc09f802242a6d8c62e0ebc1d64c14aca57cdd483155512",
-                "9fc183685ef9089c355bbb4fc9b39db3a92d6064dd2ab63a216faec55f13e4d3"
+                "4848521a907e868e1db89bc627c6b6a1b65a0b928250bd5ea0d138ee59267cb7",
+                "f8002f7499b71dfae0efd8b70beb492a91d092847ee486c9beb787f3610c6ff4"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4683/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4683/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4708/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4708/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "bd26aa871502becc03d52bc8bdcb1eeb3fa729003c31b7adb635c3ca5e463b67",
-                "17d12c96e616dc9a28d6114a4dd6f222e17798540cff186d196a114f88f01d5a"
+                "515a389f55b49d0f0b00de6ff727e966d9047abb2d1647554c82db97696ef011",
+                "c9ad18fbb9ea2992a2d9c8b6c38ce08a9fda313b059b236a56abfd6faa16339c"
             ]
         }
     },

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4819",
+    "version": "0.1.4839",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4819/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4819/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "36c92fc6f1ac84621c07315eb521a171a8ccb0e1ef04bcbfa079ee5b95d95d9d",
-                "e4a7c8325a6383cad7b3bcf42e7f1e2ab5c012df7707a242c4462894071e122e"
+                "6f71c43281d55ef7f5ea287df1f1713cc0da83b0b7f63addbf1f0f13147ce87c",
+                "7889627589da0c026f70f4c40c2e0137bcaa24baabb683ec8dfd631d049daf11"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4819/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4819/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "ebeeff4fb0bdd6234b2f6c52e74c0db20f8bde281e516e8a560743f5562cd028",
-                "a7e507ac60afe0423c60eff14478bee422f9f1ff0974fc5e5fa2aa37d87c0218"
+                "fa2dd52e735847fa50dd87330fa941542e5b6c5471eebcdaac634c77b45c8ad2",
+                "5eb999df214272a342b6920e779c877c8ca21fa37b204c8a7e721a52dbafe52c"
             ]
         }
     },

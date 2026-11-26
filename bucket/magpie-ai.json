@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4839",
+    "version": "0.1.4909",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "6f71c43281d55ef7f5ea287df1f1713cc0da83b0b7f63addbf1f0f13147ce87c",
-                "7889627589da0c026f70f4c40c2e0137bcaa24baabb683ec8dfd631d049daf11"
+                "99aa3f66f3262aded49e8d20f15d8ad60d4e1f054e061cd02a14c89142e1085d",
+                "4f96b279824ba4687a27761f8d349d73564d15c0c2ce2c947485bf72cec7006a"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4839/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "fa2dd52e735847fa50dd87330fa941542e5b6c5471eebcdaac634c77b45c8ad2",
-                "5eb999df214272a342b6920e779c877c8ca21fa37b204c8a7e721a52dbafe52c"
+                "37a36f1193e6a3204b6239316d17581d088ec98443469fc4b2517a1b493c7281",
+                "567007b8bdff6bcc0fca1f7d865dcca6b5f4a3cdaeca685de8749fe8e64d70f2"
             ]
         }
     },

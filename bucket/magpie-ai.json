@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4909",
+    "version": "0.1.4939",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "99aa3f66f3262aded49e8d20f15d8ad60d4e1f054e061cd02a14c89142e1085d",
-                "4f96b279824ba4687a27761f8d349d73564d15c0c2ce2c947485bf72cec7006a"
+                "9ffa134e7299f8b428e19efc88be8715ad237c9fcc7ba84ce2690edc86629785",
+                "5de33b3135069d312bf37927ac7914c8d82d7587404d20cf10b15c66a505572a"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4909/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "37a36f1193e6a3204b6239316d17581d088ec98443469fc4b2517a1b493c7281",
-                "567007b8bdff6bcc0fca1f7d865dcca6b5f4a3cdaeca685de8749fe8e64d70f2"
+                "399549af987d60fd29cbdee80cf9553c7d8ca2ed5f08829cb0e86fde1c377df8",
+                "52c5f1772f480879dcc7da7b3de24df75a7d21262b097ce22aee3845fc3c40dd"
             ]
         }
     },

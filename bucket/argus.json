@@ -1,0 +1,45 @@
+{
+    "version": "0.6.0.1",
+    "description": "A modern task manager for Windows, built with Rust and GPUI Kit. (personal fork with manual and automatic system memory cleanup)",
+    "homepage": "https://github.com/sakiko999/Argus",
+    "license": "AGPL-3.0-or-later",
+    "notes": [
+        "Tracks releases from sakiko999/Argus (personal fork with Issue #187 memory cleanup), auto-updated by CI every 6 hours.",
+        "Exit Argus completely (tray - Quit) before running 'scoop update' or 'scoop uninstall'; running files are locked and Scoop silently skips.",
+        "If you enabled the optional privileged service (ArgusPrivileged) or Task Manager replacement in Settings - Permissions, update or uninstall it inside Argus Settings before removing Argus.",
+        "User settings and history live outside the app dir (%AppData% / %LocalAppData%) and survive scoop uninstall."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sakiko999/Argus/releases/download/v0.6.0.1/Argus_0.6.0.1_x64.exe#/argus.exe",
+            "hash": "faf68f27ade29d950daa02a83c7b42f0bcc9acafb4b1288369c66c0772648819"
+        },
+        "arm64": {
+            "url": "https://github.com/sakiko999/Argus/releases/download/v0.6.0.1/Argus_0.6.0.1_arm64.exe#/argus.exe",
+            "hash": "7eb0630342f4aee691770984431734e332f18e89633ca2433564e8a77c1fb45e"
+        }
+    },
+    "bin": "argus.exe",
+    "shortcuts": [
+        [
+            "argus.exe",
+            "Argus"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sakiko999/Argus"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sakiko999/Argus/releases/download/v$version/Argus_$version_x64.exe#/argus.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/sakiko999/Argus/releases/download/v$version/Argus_$version_arm64.exe#/argus.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}

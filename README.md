@@ -34,3 +34,15 @@ scoop install overlay/steamcommunity-302
 - Windows Defender 可能因 hosts 修改行为误报 PUA，需手动放行三个文件（notes 里有清单）。
 - 302 自带 Windows 全自动更新，与 scoop 管理冲突；建议用 `scoop update` 更新并关闭应用内自动更新（如有选项）。
 - 配置/证书/hosts 在应用目录外（`%ProgramData%\Steamcommunity_302`、`%LocalAppData%\S302`），scoop 卸载不会清理，彻底移除按官方页面的完全卸载步骤操作。
+
+## argus
+
+[Argus](https://github.com/sakiko999/Argus)（基于 [Ray-lea/Argus](https://github.com/Ray-lea/Argus) 的个人 fork）：使用 Rust 与 GPUI Kit 构建的现代 Windows 任务管理器，额外包含手动与自动系统内存清理功能（对应上游 Issue #187）。本桶直接追踪 `sakiko999/Argus` 的 GitHub Release（含 `x64` 与 `arm64` 便携版及 `SHA256SUMS.txt`）。
+
+```powershell
+scoop install overlay/argus
+```
+
+- **更新/卸载前先完全退出 Argus**（托盘 → 退出）：程序运行中文件会被占用，scoop 会静默跳过。
+- 如在“设置 → 权限”中安装了可选的**特权服务（ArgusPrivileged）**或启用了任务管理器替换，更新后建议在设置里更新特权服务，卸载前先在设置中卸载特权服务。
+- 用户设置与历史记录保存在 `%AppData%` / `%LocalAppData%`，`scoop uninstall` 后会保留。

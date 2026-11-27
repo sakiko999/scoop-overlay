@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4939",
+    "version": "0.1.4985",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4985/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4985/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "9ffa134e7299f8b428e19efc88be8715ad237c9fcc7ba84ce2690edc86629785",
-                "5de33b3135069d312bf37927ac7914c8d82d7587404d20cf10b15c66a505572a"
+                "17452498a0f89ac27bb3722db69913bebcaf70ec58a3522bb148752613e78e2c",
+                "d9482cc86a5a1d5fea1644a5c08f65473a448979c5329fd3bd5f763a4bddc5b4"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4939/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4985/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.4985/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "399549af987d60fd29cbdee80cf9553c7d8ca2ed5f08829cb0e86fde1c377df8",
-                "52c5f1772f480879dcc7da7b3de24df75a7d21262b097ce22aee3845fc3c40dd"
+                "508d2f4dc4f590e4dda8488797ec222d68cc00decfeac95552181e1789aa61ff",
+                "f3301a8df429a06bc1ab710eb272d2c740780061ba792412d82104eac0bdafc2"
             ]
         }
     },

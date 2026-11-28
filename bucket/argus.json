@@ -1,5 +1,5 @@
 {
-    "version": "0.6.0.2",
+    "version": "0.7.0",
     "description": "A modern task manager for Windows, built with Rust and GPUI Kit. (personal fork with manual and automatic system memory cleanup)",
     "homepage": "https://github.com/sakiko999/Argus",
     "license": "AGPL-3.0-or-later",
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sakiko999/Argus/releases/download/v0.6.0.2/Argus_0.6.0.2_x64.exe#/argus.exe",
-            "hash": "4b5045016b2f30eae9c246d2c6c5498bc14904cd314e90953546c765bafda0ae"
+            "url": "https://github.com/sakiko999/Argus/releases/download/v0.7.0/Argus_0.7.0_x64.exe#/argus.exe",
+            "hash": "e7627554c767ebd0a901deadbae4ba1c4e37f9150fa75e7725485eaf54fe747e"
         },
         "arm64": {
-            "url": "https://github.com/sakiko999/Argus/releases/download/v0.6.0.2/Argus_0.6.0.2_arm64.exe#/argus.exe",
-            "hash": "13c497856ae039539de005a48fcb8fcbab6333bafc1c870cd1f44fbb64b8f5e9"
+            "url": "https://github.com/sakiko999/Argus/releases/download/v0.7.0/Argus_0.7.0_arm64.exe#/argus.exe",
+            "hash": "193431f5eda9b2f69462d16e4e874669d673fea6d73e1e748d92c2d07a8258eb"
         }
     },
     "bin": "argus.exe",

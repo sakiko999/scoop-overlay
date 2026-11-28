@@ -1,5 +1,5 @@
 {
-    "version": "0.1.5021",
+    "version": "0.1.5023",
     "description": "Unified model, provider, and gateway manager for AI coding agents. (rolling release, tracks GitHub latest)",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
@@ -15,22 +15,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5021/magpie-windows-amd64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5021/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5023/magpie-windows-amd64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5023/magpie-cli-windows-amd64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "7f2ed839e00f7c188cab9ade0ca19c71c7ff409c25f41cc89073228b1ee3f3c5",
-                "20f379a5a7f855758ef003a8ad887a1bde89e82794ca1cdca9d432e63151b849"
+                "e5ec496c0f7047fa0642919163b2670465acc672a5e28214a7545bff869bec84",
+                "822b7f2140df4bce08322f173ca088f16378d60635a517a6338407c53c78f328"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5021/magpie-windows-arm64.exe#/magpie.exe",
-                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5021/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5023/magpie-windows-arm64.exe#/magpie.exe",
+                "https://github.com/yetone/magpie-releases/releases/download/v0.1.5023/magpie-cli-windows-arm64.exe#/magpie-cli.exe"
             ],
             "hash": [
-                "71c90b90a1271067935881a281612d1aa3457b380cb515206ef28030651cfa10",
-                "d080dae561a1409964466e983d97d95197dc75a88ea05397f68b7d79804b5935"
+                "5a813ac172b18d04691e9ccd8c23251f525630eb9456dc6199fe3cac12c60a77",
+                "dd4e75b9bda12ba47270bc80f0d77b03d2e16f93d399eca8fca302865b36598d"
             ]
         }
     },
